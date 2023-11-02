@@ -1,0 +1,16 @@
+.Component{
+    height: 400px;
+    width: 410px;
+    text-align: center;
+   box-sizing: border-box;
+   border: 1px solid black;
+}
+.Component img{
+    margin: 10px auto;
+}
+.Component h3{
+    font-size: 25px;
+}
+.Component p{
+    font-weight: 800;
+}

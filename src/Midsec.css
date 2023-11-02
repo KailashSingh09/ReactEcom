@@ -1,0 +1,28 @@
+.parent h1{
+    font-weight: 900;
+    font-size: 75px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    line-height: 75px;
+  }
+.parent p{
+font-family: Arial, Helvetica, sans-serif,bold;
+height: 100px;
+font-weight: 500;
+box-sizing: border-box;
+
+}
+.first{
+   margin-left: 150px;
+}
+.fchild{
+    display: flex;
+    width:290px;
+    justify-content: space-between;
+}
+.imgs{
+  display: flex;
+}
+.parent{
+  display: flex;
+}
