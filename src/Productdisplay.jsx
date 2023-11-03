@@ -1,5 +1,5 @@
 import React from 'react'
-import Items from "./products.json"
+import data from "./products.json"
 import PRODUCTpage from './PRODUCTpage'
 import "./ProdDisplay.css"
 
@@ -9,7 +9,7 @@ const Productdisplay=()=>{
   // .then(json=>console.log(json))
     return(
         <div className='page'>
-        {Items.map((item) => (
+        {data.map((item) => (
           <PRODUCTpage
             src={item.thumbnail}
             Title={item.title}
