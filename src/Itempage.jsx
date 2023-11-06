@@ -1,9 +1,11 @@
 import React from 'react'
+import Footer from "./Footer"
 import Productdisplay from "./Productdisplay"
 const Itempage = () => {
   return (
     <div>
-    <Productdisplay/>
+    <Productdisplay/> <br/> <br/>
+    <Footer/>
     </div>
   )
 }
